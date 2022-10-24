@@ -23,6 +23,11 @@ python3 -m pip install -r requirements.txt
 ```
 python3 bot.py
 ```
+### Запуск в Docker
+```
+docker build . -t hh-ru-auto-resume-raising
+docker run -d --name hh hh-ru-auto-resume-raising
+```
 ### Принцип работы
 1) Выполнить пункты из инструкции
 2) Активировать бота (если бот был активирован ввести команду /start)
